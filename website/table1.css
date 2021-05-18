@@ -1,0 +1,73 @@
+*{
+	padding: 0px;
+  margin: 0px;
+  font-family: 'Fredoka One', cursive;
+}
+
+/*-------Nav Bar---------------*/
+
+nav a:hover {
+  border-top: 4px solid white;
+  border-bottom: 4px solid white;
+  padding: 6px 0; 
+}
+/*-------End of Navbar--------*/
+
+
+/* Footer */
+
+footer{
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center; 
+   margin: 0px;
+   margin-top: 50px;
+   padding-top: 25px;
+}
+
+.text-copy{
+    text-align: center;
+    padding: 25px 0;
+    
+   display: flex;
+   justify-content: center;
+  
+   
+   margin: 0px;   
+}
+
+.social{
+    margin-top: 10px;
+}
+.social a {   
+    display: inline-block;   
+    text-align: center;   
+    padding: 8px;   
+    
+    color: white;   
+    font-size: 15px;   
+    }         
+    .social a:hover {   
+    color: #000;   
+      }       
+    .facebook {   
+    background: #3b5998;   
+    color: white;  
+    }         
+    .twitter {   
+    color: white;   
+    background: #00acee;   
+    }   
+    .linkedin {   
+    background:#0e76a8;   
+    color: white;   
+    }          
+    .instagram {   
+    background: #e1306c;   
+    color: white;   
+     }
+
+/* End Footer */

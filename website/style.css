@@ -1,0 +1,193 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Fredoka One', cursive; 
+}
+
+.imgnav{
+  border-radius: 50%;
+}
+/*-------Nav Bar---------------*/
+
+nav a:hover {
+  border-top: 4px solid white;
+  border-bottom: 4px solid white;
+  padding: 6px 0; 
+}
+/*-------End of Navbar--------*/
+
+/****** Home ********/
+section.topContent{
+
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 150px;
+  margin-left: 30px;
+  flex-wrap: wrap;
+}
+
+section.topContent .main-content {
+    
+    color: orange;
+    font-size: 25px;
+    
+}
+
+section.topContent .sub-content {
+    color:black;
+    font-size: 20px;
+}
+
+section.title {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.sub-title {
+    color: #4F75E2;
+    text-align: center;
+    margin-top: 20px;
+}
+
+section.topContent img {
+    width: 100%;
+}
+
+/* End of Home */
+
+/* Card */
+.card:hover{
+    box-shadow: 5px 20px gold;
+}   
+/* End of Card*/
+
+
+/* About us*/
+.heading{
+    color: orange;
+    font-size: 35px;
+    text-align: center;
+    margin: 40px;
+    padding-top: 200px;  
+
+}
+.text{
+    font-size: 25px;    
+}
+
+/* End of About Us*/
+
+
+
+/* Services */
+.fa-users 
+{
+  color: #00BFFF;
+}
+
+.fa-search 
+{
+  color: #696969;
+}
+
+.fa-random 
+{
+  color: green;
+}
+
+/*End of services */
+/* Contact Us */
+#contact{
+    width: 700px;
+}
+@media only screen and (max-width: 600px) {
+    #contact {
+      width: 400px;
+    }
+  }
+  
+  /* End of Contact Us */
+
+
+/* Footer */
+
+footer{
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center; 
+   margin: 0px;
+   margin-top: 50px;
+   padding-top: 25px;
+}
+
+.text-copy{
+    text-align: center;
+    padding: 25px 0;
+    
+   display: flex;
+   justify-content: center;
+  
+   
+   margin: 0px;   
+}
+
+.social{
+    margin-top: 10px;
+}
+.social a {   
+    display: inline-block;   
+    text-align: center;   
+    padding: 8px;   
+    
+    color: white;   
+    font-size: 15px;   
+    }         
+    .social a:hover {   
+    color: #000;   
+      }       
+    .facebook {   
+    background: #3b5998;   
+    color: white;  
+    }         
+    .twitter {   
+    color: white;   
+    background: #00acee;   
+    }   
+    .linkedin {   
+    background:#0e76a8;   
+    color: white;   
+    }          
+    .instagram {   
+    background: #e1306c;   
+    color: white;   
+     }
+
+/* End Footer */
+
+
+.hero-button{
+  display: inline-block;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 13px 20px;
+  border-radius: 200px;
+  font-weight: bold;
+  background: orange;
+  color:#fff;
+  cursor:pointer;
+  border: 2px solid orange;
+  margin-top: 10px;
+}
+
+.hero-button:hover{
+  text-decoration: none;
+  background: #000;
+  color:orange;
+  border:none;
+}
+
